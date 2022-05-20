@@ -3,16 +3,19 @@
   --second-color: #0b409c;
   --third-color: #10316b;
   --fourth-color: #fdbe34;
+
+  --heading-font-family: "Macondo", cursive;
+  --paragraph-font-family: "Nunito", sans-serif;
 }
 
 body {
-  background-color: var(--first-color);
   font-family: "Nunito", sans-serif;
 }
 
 h1 {
   color: var(--third-color);
   font-family: "Macondo", cursive;
+  font-weight: 700;
 }
 
 a {
@@ -21,4 +24,37 @@ a {
   color: var(--first-color);
   background-color: var(--second-color);
   border-radius: 5px;
+}
+
+.hero {
+  background-color: var(--first-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-family: "Nunito", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h1 {
+  font-family: "Macondo", cursive;
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.hero h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.btn-branding {
+  font-size: 18px;
+  padding: 18px 30px;
+  background-color: var(--second-color);
+  color: var(--first-color);
+  border-radius: 4px;
 }
