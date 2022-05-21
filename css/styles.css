@@ -6,6 +6,7 @@
 
   --heading-font-family: "Macondo", cursive;
   --default-font-family: "Nunito", sans-serif;
+  --shadow-default: 5px 5px 30px var(--fourth-color);
 }
 
 body {
@@ -71,6 +72,10 @@ p {
 .img-container {
   background-color: var(--first-color);
   text-align: center;
+}
+
+.shadow-img {
+  box-shadow: 5px 5px 10px var(--fourth-color);
 }
 
 img {
