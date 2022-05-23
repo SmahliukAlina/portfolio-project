@@ -39,10 +39,11 @@ footer {
   padding: 15px;
 }
 
-i {
+.social-links a {
   padding: 20px;
   color: var(--third-color);
   opacity: 0.9;
+  transition: all 200ms ease-in-out;
 }
 
 img {
@@ -125,7 +126,7 @@ nav a:hover {
   text-decoration: none;
 }
 
-.learn-more-link:hover {
+.links:hover {
   color: var(--fourth-color);
 }
 
@@ -171,5 +172,8 @@ nav a:hover {
 
   nav li {
     font-size: 15px;
+  }
+  footer {
+    font-size: 30px;
   }
 }
