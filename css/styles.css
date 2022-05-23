@@ -20,62 +20,18 @@ h2 {
   font-weight: 700;
 }
 
+h1 {
+  font-size: 96px;
+}
+
 h2 {
-  font-size: 64px;
+  font-size: 36px;
 }
 
 p {
   font-size: 16px;
   line-height: 30px;
   font-family: var(--default-font-family);
-}
-
-.hero {
-  background-color: var(--first-color);
-  text-align: center;
-  padding: 180px 0px;
-}
-
-.hero p {
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.hero h1 {
-  font-family: var(--heading-font-family);
-  font-size: 96px;
-  font-weight: 700;
-}
-
-.hero h2 {
-  font-size: 24px;
-  font-weight: normal;
-  font-family: var(--default-font-family);
-}
-
-.btn-branding {
-  font-size: 18px;
-  padding: 18px 30px;
-  border-radius: 4px;
-  line-height: 27px;
-  background-color: var(--second-color);
-  color: var(--first-color);
-}
-
-.btn-branding-outline {
-  font-size: 18px;
-  line-height: 27px;
-  color: var(--second-color);
-}
-
-.img-container {
-  background-color: var(--first-color);
-  text-align: center;
-}
-
-img {
-  min-height: 300px;
 }
 
 footer {
@@ -89,19 +45,70 @@ i {
   opacity: 0.9;
 }
 
+.first-view-page {
+  padding: 120px 0px;
+}
+
+.bckgrnd-color {
+  background-color: var(--first-color);
+}
+
+.btn-branding {
+  font-size: 18px;
+  padding: 18px 30px;
+  border-radius: 4px;
+  line-height: 27px;
+  background-color: var(--second-color);
+  color: var(--first-color);
+  transition: all 200ms ease-in-out;
+}
+
+.btn-branding:hover {
+  color: var(--first-color);
+  opacity: 0.9;
+}
+
+.learn-more-link {
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--second-color);
+  padding: 18px 30px;
+}
+
+.content {
+  padding: 20px 80px;
+}
+
+.hero h2,
+.about-hero {
+  font-size: 24px;
+  font-weight: normal;
+  font-family: var(--default-font-family);
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: var(--second-color);
+}
+
 @media (max-width: 576px) {
-  .hero {
-    padding: 200px 0;
+  .first-view-page {
+    padding: 100px 0;
+    text-align: center;
   }
-  .hero h1 {
+
+  h1 {
     font-size: 60px;
   }
 
   .hero p {
     font-size: 24px;
+    text-align: center;
   }
 
-  .hero h2 {
-    font-size: 18px;
+  h2 {
+    font-size: 30px;
   }
 }
