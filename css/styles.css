@@ -67,6 +67,26 @@ i {
   color: var(--first-color);
   opacity: 0.9;
 }
+.btn-overline {
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 80px;
+  background-color: var(--fourth-color);
+  border-radius: 4px;
+  border: 1px solid var(--fourth-color);
+  color: var(--second-color);
+  transition: all 200ms ease-in-out;
+}
+
+.btn-overline:hover {
+  color: var(--first-color);
+  opacity: 0.9;
+}
+.work-buttons {
+  text-align: center;
+  padding-top: 40px;
+}
 
 .learn-more-link {
   font-size: 18px;
