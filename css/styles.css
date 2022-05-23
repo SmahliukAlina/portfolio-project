@@ -45,12 +45,17 @@ i {
   opacity: 0.9;
 }
 
+img {
+  box-shadow: 5px 5px 10px var(--second-color);
+}
 .first-view-page {
   padding: 120px 0px;
 }
 
 .bckgrnd-color {
   background-color: var(--first-color);
+  text-align: center;
+  border-radius: 4px;
 }
 
 .btn-branding {
