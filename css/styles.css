@@ -70,19 +70,10 @@ footer .author {
   font-weight: normal;
 }
 
-.nav-active-link {
-  color: var(--fourth-color);
-}
-
-.footer-icons a {
-  padding: 20px;
-  color: var(--third-color);
-  opacity: 0.9;
-  transition: all 200ms ease-in-out;
-}
-
-.hero-name {
-  font-size: 20px;
+.bckgrnd {
+  background-color: var(--first-color);
+  text-align: center;
+  border-radius: 4px;
 }
 
 .first-view-page {
@@ -90,10 +81,12 @@ footer .author {
   text-align: center;
 }
 
-.bckgrnd {
-  background-color: var(--first-color);
-  text-align: center;
-  border-radius: 4px;
+.nav-active-link {
+  color: var(--fourth-color);
+}
+
+.nav-hero-name {
+  font-size: 20px;
 }
 
 .btn-branding {
@@ -137,6 +130,13 @@ footer .author {
   padding: 18px 30px;
 }
 
+.footer-icons a {
+  padding: 20px;
+  color: var(--third-color);
+  opacity: 0.9;
+  transition: all 200ms ease-in-out;
+}
+
 .links:hover {
   color: var(--fourth-color);
 }
@@ -177,7 +177,7 @@ footer .author {
   h2 {
     font-size: 30px;
   }
-  .hero-name {
+  .nav-hero-name {
     display: none;
   }
 
