@@ -182,11 +182,12 @@ footer .author {
   nav li {
     font-size: 15px;
   }
+
   footer {
-    font-size: 30px;
+    font-size: 25px;
   }
 
-  .footer-links a {
-    padding: 10px;
+  .footer-icons a {
+    padding: 15px;
   }
 }
