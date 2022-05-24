@@ -6,7 +6,6 @@
 
   --heading-font-family: "Macondo", cursive;
   --default-font-family: "Nunito", sans-serif;
-  --shadow-default: 5px 5px 30px var(--fourth-color);
 }
 
 body {
@@ -99,6 +98,7 @@ footer .author {
   background-color: var(--second-color);
   color: var(--first-color);
   transition: all 200ms ease-in-out;
+  box-shadow: 3px 5px 10px var(--second-color);
 }
 
 .btn-branding:hover {
@@ -155,26 +155,26 @@ footer .author {
   font-weight: bold;
   margin: 0;
   color: var(--second-color);
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
-  .first-view-page {
-    padding: 100px 0;
-    text-align: center;
-  }
-
   h1 {
     font-size: 60px;
   }
 
   .hero p {
     font-size: 24px;
-    text-align: center;
   }
 
   h2 {
+    font-size: 25px;
+  }
+
+  h3 {
     font-size: 30px;
   }
+
   .nav-hero-name {
     display: none;
   }
@@ -188,9 +188,5 @@ footer .author {
 
   .footer-links a {
     padding: 10px;
-  }
-
-  footer .author {
-    font-size: 16px;
   }
 }
