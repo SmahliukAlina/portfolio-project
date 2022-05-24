@@ -34,22 +34,6 @@ p {
   font-family: var(--default-font-family);
 }
 
-footer {
-  font-size: 48px;
-  padding: 15px;
-}
-
-.social-links a {
-  padding: 20px;
-  color: var(--third-color);
-  opacity: 0.9;
-  transition: all 200ms ease-in-out;
-}
-
-img {
-  box-shadow: 5px 5px 10px var(--second-color);
-}
-
 nav ul {
   padding-left: 0;
 }
@@ -71,19 +55,42 @@ nav a {
 nav a:hover {
   color: var(--fourth-color);
 }
-.active-link {
+
+img {
+  box-shadow: 5px 5px 10px var(--second-color);
+}
+
+footer {
+  font-size: 48px;
+  padding: 15px;
+}
+
+footer .author {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.nav-active-link {
   color: var(--fourth-color);
+}
+
+.footer-icons a {
+  padding: 20px;
+  color: var(--third-color);
+  opacity: 0.9;
+  transition: all 200ms ease-in-out;
 }
 
 .hero-name {
   font-size: 20px;
 }
+
 .first-view-page {
   padding: 80px 0px;
   text-align: center;
 }
 
-.bckgrnd-color {
+.bckgrnd {
   background-color: var(--first-color);
   text-align: center;
   border-radius: 4px;
@@ -101,29 +108,33 @@ nav a:hover {
   color: var(--first-color);
 }
 
-.btn-start {
+.btn-index-start {
   font-size: 18px;
   padding: 18px 30px;
   line-height: 27px;
 }
 
-.btn-overline {
+.work-buttons-group {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.btn-work {
   font-size: 16px;
   padding-top: 5px 0;
   width: 80px;
 }
 
-.work-buttons {
-  text-align: center;
-  padding-top: 40px;
+.link-branding {
+  color: var(--second-color);
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
 }
 
-.learn-more-link {
+.btn-link {
   font-size: 18px;
   line-height: 27px;
-  color: var(--second-color);
   padding: 18px 30px;
-  text-decoration: none;
 }
 
 .links:hover {
@@ -175,5 +186,13 @@ nav a:hover {
   }
   footer {
     font-size: 30px;
+  }
+
+  .footer-links a {
+    padding: 10px;
+  }
+
+  footer .author {
+    font-size: 16px;
   }
 }
