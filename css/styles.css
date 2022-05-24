@@ -190,4 +190,9 @@ footer .author {
   .footer-icons a {
     padding: 15px;
   }
+
+  .content {
+    padding: 10px 40px;
+    text-align: center;
+  }
 }
