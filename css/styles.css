@@ -195,4 +195,14 @@ footer .author {
     padding: 10px 40px;
     text-align: center;
   }
+
+  #cv-file {
+    width: fit-content;
+  }
+}
+
+@media (max-width: 576px) {
+  #cv-file {
+    display: none;
+  }
 }
